@@ -1,0 +1,5 @@
+install.packages("dslabs")  # to install a single package
+install.packages(c("tidyverse", "dslabs")） # to install two packages at the same time
+installed.packages() # to see the list of all installed packages
+
+#You can add the option dependencies = TRUE, which tells R to install the other things that are necessary for the package or packages to run smoothly. Otherwise, you may need to install additional packages to unlock the full functionality of a package.
